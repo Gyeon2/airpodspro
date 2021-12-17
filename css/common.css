@@ -19,4 +19,4 @@ p{}
 img{max-width: 100%;}
 h2 {  font-size:30px ;font-weight: 700; text-align: center; display: block; color: #fff; font-weight: 700;  margin:130px 0; }
 h2 span {display: block; line-height: 1;}
-.btn.buy { width: 120px; height: 30px; line-height: 30px;  margin-bottom: 10px; font-weight: 400; text-align: center; bottom: 70px; color: #fff; background: #0070C9; border-radius: 20px;}
+.btn.buy { width: 120px; height: 35px; line-height: 35px;  margin-bottom: 10px; font-weight: 400; text-align: center; bottom: 70px; color: #fff; background: #0070C9; border-radius: 20px;}
