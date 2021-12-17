@@ -37,8 +37,8 @@ gsap.to('.main_visual .img_wrap img',{
         pin:'.main_visual' 
     },
     scale:1.6,
-    rotate:1.5,
-    y:-10+"%",
+    rotate:4,
+    y:10+"%",
 })
 
 
