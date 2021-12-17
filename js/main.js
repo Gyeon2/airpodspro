@@ -341,28 +341,27 @@ imgEffect4.fromTo('.img_box03 h3 span:nth-child(1)',{
     opacity:0,
     "filter": "blur(6px)",
     xPercent:-10,
-    yPercent:0,
+
 },{
     opacity:1,
     "filter": "blur(0px)",
     stagger:2,
     duration:2,
-    xPercent:0,
-    yPercent:0,
+    xPercent:-50,
+
 },-1) // 텍스트 효과 넣었고 첫번째 
 
 imgEffect4.fromTo('.img_box03 h3 span:nth-child(2)',{
     opacity:0,
     "filter": "blur(6px)",
     xPercent:20,
-    yPercent:0,
+
 },{
     opacity:1,
     "filter": "blur(0px)",
     stagger:3,
     duration:2,
-    xPercent:0,
-    yPercent:0,
+    xPercent:-50,
 },-1)
 
 imgEffect4.fromTo('.effect_img4',{
