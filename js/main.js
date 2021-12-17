@@ -340,7 +340,7 @@ let imgEffect4 = gsap.timeline({
 imgEffect4.fromTo('.img_box03 h3 span:nth-child(1)',{
     opacity:0,
     "filter": "blur(6px)",
-    xPercent:-10,
+    xPercent:-100,
 
 },{
     opacity:1,
@@ -354,7 +354,7 @@ imgEffect4.fromTo('.img_box03 h3 span:nth-child(1)',{
 imgEffect4.fromTo('.img_box03 h3 span:nth-child(2)',{
     opacity:0,
     "filter": "blur(6px)",
-    xPercent:20,
+    xPercent:50,
 
 },{
     opacity:1,
