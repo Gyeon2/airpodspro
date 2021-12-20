@@ -56,7 +56,7 @@ gsap.to('.main_visual .t_wrap h2',{
      "filter": "blur(0px)",
      
 })
-//통합형 끝 ** 
+
 gsap.to('.main_visual .t_wrap .btn',{
     scrollTrigger:{
         trigger:'.main_visual',
@@ -96,7 +96,7 @@ txtEffect.fromTo('.sc_intro h2 span',{
     duration:2,
     y:0,
    
-}) // 분리형 
+}) 
 
 
 
@@ -123,7 +123,7 @@ intEffect.fromTo('.sc_explain .pd_int',{
     "filter": "blur(0px)",
     y:0,
     duration:1.5,
-}) // 분리형 
+}) 
 
 
 let twrapEffect = gsap.timeline({ 
@@ -140,7 +140,7 @@ let twrapEffect = gsap.timeline({
 
 twrapEffect.fromTo('.sc_explain .txt_wrap',{
     opacity:0,
-    "filter": "blur(3px)", //블러처리 
+    "filter": "blur(3px)", 
     y:5+"%",
    
  
@@ -149,7 +149,7 @@ twrapEffect.fromTo('.sc_explain .txt_wrap',{
     "filter": "blur(0px)",
     y:0,
     duration:1,
-}) // 분리형 
+}) 
 
 
 
@@ -244,7 +244,7 @@ $('.effect_txt2').each(function(index, item){
 let txtEffect2 = gsap.timeline({
     scrollTrigger:{
         trigger:'.sc_noise .wrap',
-        start:"-10% 0%",// 첫번째 top은 element 기준의 시작점(start), 두번째는 브라우저의 시작점(scroll-start)
+        start:"-10% 0%",
         end: 'bottom 0%',
         //markers:true,
         pin:'.sc_noise',
@@ -262,7 +262,7 @@ txtEffect2.fromTo('.sc_noise .wrap .left',{
     stagger:3,
     duration:2,
     xPercent:0,
-},-1) // 텍스트 효과 넣었고 첫번째 
+},-1) 
 
 txtEffect2.fromTo('.sc_noise .wrap .right',{
     opacity:0,
@@ -274,7 +274,7 @@ txtEffect2.fromTo('.sc_noise .wrap .right',{
     stagger:3,
     duration:2,
     xPercent:0,
-},-1)//이미지 효과 넣었고 두번째 -0.5는 좀 더 빨리 움직이도록 음수를 넣음
+},-1)
 
 txtEffect2.fromTo('.sc_noise .wrap p',{
     opacity:0,
@@ -287,7 +287,7 @@ txtEffect2.fromTo('.sc_noise .wrap p',{
     duration:1,
     yPercent:0,
  
-});// 마지막 효과 넣기 세번째
+});
 
 
 
@@ -349,7 +349,8 @@ imgEffect4.fromTo('.img_box03 h3 span:nth-child(1)',{
     duration:2,
     xPercent:-50,
 
-},-1) // 텍스트 효과 넣었고 첫번째 
+},-1) 
+
 
 imgEffect4.fromTo('.img_box03 h3 span:nth-child(2)',{
     opacity:0,
@@ -400,7 +401,8 @@ imgEffect5.fromTo('.sip div',{
     scrub:1,
 },{
     opacity:1,
-    stagger:0.3,// li의 순차대로 실행되는 것
+    stagger:0.3,
+
     duration:1,
     y:0
 })
@@ -433,7 +435,8 @@ listEffect.fromTo('.sc_product li',{
     duration:1,
     y:0,
    
-}) // 분리형 
+}) 
+
 
 
 $('.f_menu > li > a').click(function(e){
